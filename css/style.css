@@ -1,0 +1,108 @@
+/* basic header */
+/* header{
+    width: 100%;
+} */
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo, .buttons{
+    flex-basis: 20%;
+}
+
+
+.menu{
+    flex-basis: 60%;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 22px;
+    font-size: 16px;
+    color: #0e72cc;
+}
+.buttons button{
+    background: #0e72cc;
+    padding: 10px 30px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #0e72cc;
+
+}/* position css start */
+section{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.main-box{
+    position: relative;
+    width: 400px;
+    height: 250px;
+    background: yellowgreen;
+}
+
+.child{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 100px;
+    color: white;
+}
+
+.child1{
+    background: rgb(88, 47, 107);
+    left: 0;
+    top: 0;
+}
+
+.child2{
+    background: rgb(56, 56, 57);
+    right: 0;
+    bottom: 0;
+}
+/* position css end */
+
+/* national flug */
+.flug{
+    width: 100%;
+    padding: 80px 0px;
+    height: 200vh;
+}
+
+.parent{
+    position: relative;
+    width: 400px;
+    height: 240px;
+    background: green;
+}
+
+.parent .child {
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 100px;
+    color: white;
+}
+
+.child-flug {
+    position: absolute;
+    background: red;
+    left: 110px;
+    top: 50px;
+    transition: 0.7s;
+    border-radius: 50%;
+}
